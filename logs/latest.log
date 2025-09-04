@@ -1,0 +1,282 @@
+[23:04:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800203) on Windows 11 10.0 (amd64)
+[23:04:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[23:04:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:05:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\DoomsdayCore.jar'...
+[23:05:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DoomsdayCore.jar' in 794ms.
+[23:05:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[23:05:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - Doomsday (1.0.0), FastAsyncWorldEdit (2.13.1), ViaBackwards (5.4.2), ViaVersion (5.4.2), VoidGen (2.3.2)
+[23:05:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:05:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:05:07] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 569.1ms
+[23:05:10] [ServerMain/INFO]: Loaded 1407 recipes
+[23:05:10] [ServerMain/INFO]: Loaded 1520 advancements
+[23:05:10] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[23:05:10] [Server thread/INFO]: Loading properties
+[23:05:10] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[23:05:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:05:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:05:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:05:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[23:05:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:05:11] [Server thread/INFO]: Default game type: SURVIVAL
+[23:05:11] [Server thread/INFO]: Generating keypair
+[23:05:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:05:11] [Server thread/INFO]: Using default channel type
+[23:05:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:05:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:05:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[23:05:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[23:05:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:05:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:05:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:05:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:05:14] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.3.2
+[23:05:14] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[23:05:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1
+[23:05:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3581917d]
+[23:05:15] [Server thread/INFO]: [Doomsday] Loading server plugin Doomsday v1.0.0
+[23:05:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:05:15] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.3.2
+[23:05:15] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_21_3
+[23:05:15] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1
+[23:05:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[23:05:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[23:05:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:05:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:05:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_6.PaperweightFaweAdapter as the Bukkit adapter
+[23:05:17] [Server thread/INFO]: Preparing level "world"
+[23:05:17] [Server thread/INFO]: [VoidGen] 
+[23:05:17] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:05:17] [Server thread/INFO]: [VoidGen] > 
+[23:05:17] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[23:05:17] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[23:05:17] [Server thread/INFO]: [VoidGen] > 
+[23:05:17] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:05:17] [Server thread/INFO]: [VoidGen] 
+[23:05:17] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1167 build(s) out of date.
+You are running build 0, the latest version is build 1167.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[23:05:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:05:18] [Server thread/INFO]: Preparing spawn area: 0%
+[23:05:18] [Server thread/INFO]: Time elapsed: 350 ms
+[23:05:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:05:18] [Server thread/INFO]: Preparing spawn area: 0%
+[23:05:18] [Server thread/INFO]: Time elapsed: 163 ms
+[23:05:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[23:05:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[23:05:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[23:05:18] [Server thread/INFO]: [Doomsday] Enabling Doomsday v1.0.0
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded 18 valid reinforcement materials
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded 18 resistance values
+[23:05:18] [Server thread/INFO]: [Doomsday] No reinforced blocks data file found, starting fresh
+[23:05:18] [Server thread/INFO]: [Doomsday] Created default custom_items.yml configuration
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded custom items configuration
+[23:05:18] [Server thread/INFO]: [Doomsday] Successfully registered reinforcement powder recipe (dummy)
+[23:05:18] [Server thread/INFO]: [Doomsday] Recipe configured from custom_items.yml
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: patriot_america_border at (-192, 102, 0) with 95% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: aegis_america_north at (-220, 102, 40) with 92% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: aegis_america_south at (-220, 102, -40) with 92% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: core_defense_america at (-240, 102, 0) with 90% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: hq9_asia_border at (192, 102, 0) with 90% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s400_asia_core at (220, 102, 36) with 88% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s400_asia_support at (220, 102, -36) with 88% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: flak_antarctica_core at (0, 102, 192) with 65% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: iris_antarctica_support at (-32, 102, 160) with 80% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: kub_africa_core at (0, 102, 0) with 75% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: zsu_africa_support at (-40, 102, 20) with 70% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s300_europe_core at (0, 102, -192) with 85% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: iris_europe_support at (20, 102, -160) with 80% accuracy
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded 13 anti-air defense systems
+[23:05:18] [Server thread/INFO]: [Doomsday] Loaded 5 nations with disaster systems
+[23:05:18] [Server thread/INFO]: [Doomsday] Initialized online player tracking. Nations: {africa=0, asia=0, antarctica=0, europe=0, america=0}
+[23:05:18] [Server thread/INFO]: [Doomsday] Messaging Manager loaded - Missiles: global, Anti-air: nation-specific, Disasters: nation-specific
+[23:05:18] [Server thread/INFO]: [Doomsday] No seasons configured
+[23:05:18] [Server thread/INFO]: [Doomsday] No season configured - plugin will start normally
+[23:05:18] [Server thread/INFO]: [Doomsday] Initialized game scoreboard
+[23:05:19] [Server thread/INFO]: [Doomsday] Rocket plugin enabled!
+[23:05:19] [Server thread/INFO]: [Doomsday] Reinforced blocks system initialized with 0 blocks
+[23:05:19] [Server thread/INFO]: [Doomsday] Anti-air defense system initialized with 13 defense installations
+[23:05:19] [Server thread/INFO]: [Doomsday] Nation system initialized with 5 nations and natural disasters
+[23:05:19] [Server thread/INFO]: [spark] Starting background profiler...
+[23:05:19] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:05:19] [Server thread/INFO]: Done preparing level "world" (1.902s)
+[23:05:19] [Server thread/INFO]: Running delayed init tasks
+[23:05:19] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:05:19] [Server thread/INFO]: Done (21.714s)! For help, type "help"
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for trident_america at -170,102,30
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for tomahawk_america_north at -170,102,-30
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for tomahawk_america_south at -192,102,50
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for df21_asia at 170,102,20
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for iskander_asia at 170,102,-20
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for v2_antarctica at 20,102,188
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for tsar_antarctica at -20,102,200
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for scud_africa at -2,102,0
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for fadjar_africa at -20,102,-20
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for stormshadow_europe at -20,102,-200
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed TNT block for scalp_europe at 20,102,-220
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for patriot_america_border at -192,102,0
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for aegis_america_north at -220,102,40
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for aegis_america_south at -220,102,-40
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for core_defense_america at -240,102,0
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for hq9_asia_border at 192,102,0
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for s400_asia_core at 220,102,36
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for s400_asia_support at 220,102,-36
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for flak_antarctica_core at 0,102,192
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for iris_antarctica_support at -32,102,160
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for kub_africa_core at 0,102,0
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for zsu_africa_support at -40,102,20
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for s300_europe_core at 0,102,-192
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed beacon for iris_europe_support at 20,102,-160
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed all missile and anti-air blocks
+[23:05:20] [Server thread/INFO]: [Doomsday] Placed missile and anti-air blocks on startup
+[23:05:46] [User Authenticator #0/INFO]: UUID of player Hazv is 087f99ff-4c7c-4072-9087-1037b1da3cec
+[23:05:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [VoidGen]
+[23:05:46] [Server thread/INFO]: Hazv joined the game
+[23:05:47] [Server thread/INFO]: Hazv[/127.0.0.1:54274] logged in with entity id 29 at ([world]2.7814628736966545, 107.54252318991605, 11.246025491081019)
+[23:05:52] [Server thread/INFO]: Hazv issued server command: /plugins
+[23:07:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: blizzards in Antarctica (Duration: 600 ticks)
+[23:07:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: storms in Europe (Duration: 300 ticks)
+[23:08:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: wildfires in America (Duration: 900 ticks)
+[23:09:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: monsoons in Asia (Duration: 900 ticks)
+[23:09:19] [Server thread/WARN]: [Doomsday] Unknown disaster type: monsoons
+[23:09:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: storms in Europe (Duration: 300 ticks)
+[23:09:23] [Server thread/INFO]: Hazv issued server command: /doomsday help
+[23:10:54] [Server thread/INFO]: Hazv issued server command: /nation
+[23:11:04] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:04] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:04] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:04] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:04] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:04] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:04] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:04] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:04] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:04] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:04] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:04] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:05] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:05] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:05] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:05] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:05] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:05] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:05] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:05] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:05] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:05] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:05] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:05] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:05] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:05] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:05] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:05] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:06] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:06] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:06] [Server thread/INFO]: [Doomsday] GUI Title: Select Your Nation
+[23:11:06] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:11:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: tsunamis in Asia (Duration: 600 ticks)
+[23:11:19] [Server thread/WARN]: [Doomsday] Unknown disaster type: tsunamis
+[23:11:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: blizzards in Antarctica (Duration: 600 ticks)
+[23:11:19] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: wildfires in America (Duration: 900 ticks)
+[23:11:26] [Server thread/INFO]: Hazv issued server command: /r show
+[23:11:34] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:34] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:34] [Server thread/INFO]: [Doomsday] GUI Title: Doomsday Control Panel
+[23:11:34] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:34] [Server thread/INFO]: [Doomsday] Item Display Name: '§c§lRocket Arsenal'
+[23:11:34] [Server thread/INFO]: [Doomsday] Click Type: LEFT
+[23:11:35] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:35] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:35] [Server thread/INFO]: [Doomsday] GUI Title: Rocket Arsenal
+[23:11:35] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:35] [Server thread/INFO]: [Doomsday] Item Display Name: '§f§lBack to Main Menu'
+[23:11:35] [Server thread/INFO]: [Doomsday] Click Type: LEFT
+[23:11:35] [Server thread/INFO]: [Doomsday] Processing rockets GUI click
+[23:11:35] [Server thread/INFO]: [Doomsday] Back button clicked
+[23:11:36] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:36] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:36] [Server thread/INFO]: [Doomsday] GUI Title: Doomsday Control Panel
+[23:11:36] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:36] [Server thread/INFO]: [Doomsday] Clicked item is null
+[23:11:36] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:36] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:36] [Server thread/INFO]: [Doomsday] GUI Title: Doomsday Control Panel
+[23:11:36] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:36] [Server thread/INFO]: [Doomsday] Item Display Name: '§b§lCustom Items'
+[23:11:36] [Server thread/INFO]: [Doomsday] Click Type: LEFT
+[23:11:37] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:37] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:37] [Server thread/INFO]: [Doomsday] GUI Title: Custom Items
+[23:11:37] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:37] [Server thread/INFO]: [Doomsday] Clicked item is null
+[23:11:37] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:37] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:37] [Server thread/INFO]: [Doomsday] GUI Title: Custom Items
+[23:11:37] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:37] [Server thread/INFO]: [Doomsday] Item Display Name: '§f§lBack to Main Menu'
+[23:11:37] [Server thread/INFO]: [Doomsday] Click Type: LEFT
+[23:11:38] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:11:38] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:11:38] [Server thread/INFO]: [Doomsday] GUI Title: Doomsday Control Panel
+[23:11:38] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:11:38] [Server thread/INFO]: [Doomsday] Item Display Name: '§c§lClose Menu'
+[23:11:38] [Server thread/INFO]: [Doomsday] Click Type: LEFT
+[23:11:49] [Server thread/INFO]: [Doomsday] DISASTER TRIGGERED: sandstorms in Africa (Duration: 300 ticks)
+[23:13:17] [Server thread/INFO]: Stopping server
+[23:13:17] [Server thread/INFO]: [Doomsday] Disabling Doomsday v1.0.0
+[23:13:17] [Server thread/INFO]: [Doomsday] Saved 0 reinforced blocks to file
+[23:13:17] [Server thread/INFO]: [Doomsday] Shutdown game scoreboard
+[23:13:17] [Server thread/INFO]: [Doomsday] Successfully unregistered reinforcement powder recipe
+[23:13:17] [Server thread/INFO]: [Doomsday] Rocket plugin disabled!
+[23:13:17] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1
+[23:13:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:13:17] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[23:13:17] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.3.2
+[23:13:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[23:13:17] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[23:13:17] [Server thread/INFO]: Saving players
+[23:13:17] [Server thread/INFO]: Hazv lost connection: Server closed
+[23:13:17] [Server thread/INFO]: Hazv left the game
+[23:13:17] [Server thread/INFO]: Saving worlds
+[23:13:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Saved 80 block chunks, 48 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:13:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:13:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:13:17] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:13:17] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:13:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:13:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

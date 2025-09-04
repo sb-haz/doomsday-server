@@ -1,0 +1,120 @@
+# ========================================
+# MESSAGE CONFIGURATION  
+# ========================================
+# All chat messages - kept short and unified
+# Use & for color codes (e.g., &4 = red, &a = green)
+
+# Missile launch warnings
+missile:
+  launch: "&c⚠ &f{nation} &claunched &4{missile_type}&c!"
+  
+# Anti-air defense messages  
+antiair:
+  launched: "&6◆ &f{displayName} &6firing"
+  intercepted: "&6◆ &f{displayName} &a✓ hit"
+  intercepted_by_player: "&6◆ &f{displayName} &a✓ hit &7by &f{playerName}"
+  failed: "&6◆ &f{displayName} &c✗ missed"
+  
+# Command messages
+commands:
+  usage:
+    rocket: "&7Use &f/doomsday help &7for all commands"
+    antiair: "&7Usage: &f/r aa <status|reload|online|offline> [name]"
+  reload:
+    success: "&a✓ Configs reloaded"
+    config_list:
+      - "&8• config.yml"
+      - "&8• custom_items.yml"
+      - "&8• messages.yml"
+  antiair:
+    status_header: "&6═══ ANTI-AIR STATUS ═══"
+    no_defenses: "&8No defenses configured"
+    unlimited_ammo: "&a✓ Defenses reloaded"
+    online: "&a✓ {name} online"
+    offline: "&c✗ {name} offline"
+    unknown_command: "&cUnknown: {command}"
+  permissions:
+    no_permission: "&cNo permission"
+    players_only: "&cPlayers only"
+
+# GUI messages - simplified
+gui:
+  nation_selection:
+    title: "Select Nation"
+    compass_title: "&6Nation Selection"
+    compass_lore:
+      - "&7Choose your nation"
+      - "&7Current: &f{current_nation}"
+      - "&7Can switch: {can_switch}"
+      - "&eClick nation to join"
+    leave_button:
+      title: "&cLeave Nation"
+      lore:
+        - "&7Leave current nation"
+        - "&cCooldown applies!"
+        - "&eClick to leave {nation_name}"
+  nation_info:
+    citizens: "&7Citizens: &f{count}"
+    region: "&7Region: &f{region}"
+    missiles_header: "&6Missiles:"
+    missiles_none: "&8None available"
+    disasters_header: "&cDisasters:"
+    disaster_active: " &4●"
+    current_nation: "&a✓ Your nation"
+    teleport_hint: "&eClick to teleport"
+    cannot_leave: "&cCannot leave"
+    cannot_switch: "&cCannot switch"
+    join_hint: "&eClick to join"
+  confirmation:
+    title: "Join {nation_name}?"
+    yes_button:
+      title: "&aJOIN"
+      lore:
+        - "&7Join {nation_name}"
+        - "{leave_current}"
+        - "&7Teleports to center"
+    no_button:
+      title: "&cCANCEL"
+      lore:
+        - "&7Back to selection"
+  messages:
+    joined_nation: "&a✓ Joined &f{nation_name}"
+    left_nation: "&e✓ Left &f{nation_name}"
+    teleported: "&a✓ Teleported to {nation_name}"
+    cannot_leave_cooldown: "&cCannot leave - cooldown active"
+    cooldown_remaining: "&7Cooldown: &f{hours}h {minutes}m"
+    not_in_nation: "&cNo nation"
+    failed_to_join: "&cFailed to join {nation_name}"
+    failed_to_leave: "&cFailed to leave"
+    nation_not_found: "&cNation not found"
+    
+# Items messages - new section
+items:
+  powder:
+    given: "&a✓ {amount}x Reinforcement Powder"
+    usage: "&8Right-click blocks to reinforce"
+    invalid_amount: "&cAmount must be 1-64"
+  helmet:
+    given: "&b✓ {amount}x Detector Helmet"
+    usage: "&8Wear to see reinforced blocks"
+    invalid_amount: "&cAmount must be 1-64"
+    
+# Generic messages - new section
+generic:
+  reload_success: "&a✓ Plugin reloaded"
+  reload_failed: "&cReload failed"
+  config_error: "&cConfig error"
+  invalid_command: "&cInvalid command"
+  
+# Season messages - new section  
+seasons:
+  no_season: "&8No season active"
+  season_info: "&6Season {id}: &f{name}"
+  season_active: "&a● Active"
+  season_planned: "&e● Planned"
+  season_archived: "&8● Archived"
+  created: "&a✓ Created Season {id}"
+  activated: "&a✓ Season activated"
+  archived: "&a✓ Season archived"
+  time_remaining: "&7Ends in: &f{time}"
+  time_until_start: "&7Starts in: &f{time}"
