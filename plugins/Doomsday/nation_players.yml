@@ -12,3 +12,8 @@
 settings:
   allowSwitching: true # If false, players cannot leave their current nation (but new players can still join)
   switchCooldown: 86400000 # 24 hours in milliseconds (0 to disable cooldown)
+players:
+  087f99ff-4c7c-4072-9087-1037b1da3cec:
+    nation: america
+    joinDate: 1757362857328
+    canSwitch: true

@@ -1,0 +1,48 @@
+# Chat Configuration for Doomsday Core
+# Configure how chat messages are formatted
+
+chat:
+  # Enable custom chat formatting (set to false to disable)
+  enabled: true
+  
+  # Chat format with nation prefix
+  # Available placeholders:
+  # {nation} - Player's nation display name
+  # {player} - Player's name
+  # {suffix} - LuckPerms suffix (if available)
+  # {message} - The actual chat message
+  format_with_nation: "&7({nation}) &f{player}{suffix}&7: &f{message}"
+  
+  # Chat format without nation prefix
+  # Available placeholders:
+  # {player} - Player's name
+  # {suffix} - LuckPerms suffix (if available)
+  # {message} - The actual chat message
+  format_without_nation: "&f{player}{suffix}&7: &f{message}"
+  
+  # Suffix formatting
+  suffix:
+    # Add space before suffix if it exists
+    add_space_before: true
+    # Suffix prefix (text to add before the suffix)
+    prefix: ""
+    # Suffix suffix (text to add after the suffix)
+    suffix: ""
+  
+  # Nation formatting
+  nation:
+    # Color for nation names in parentheses
+    color: "&7"
+    # Brackets around nation name
+    bracket_open: "("
+    bracket_close: ")"
+  
+  # Console logging
+  console:
+    # Log chat messages to console
+    enabled: true
+    # Include colors in console log (some consoles don't support colors)
+    include_colors: false
+  
+  # Debug mode
+  debug: false

@@ -2,4 +2,9 @@
 # Only contains one season at a time - gets reset each season
 # Use /season create <id> to create a new season
 
-seasons: []
+seasons:
+- displayName: Season 1
+  id: 1
+  endAt: '2025-09-15T21:21:50.130551Z'
+  startAt: '2025-09-08T21:21:50.130543Z'
+  status: active

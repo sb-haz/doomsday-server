@@ -1,120 +1,207 @@
 # ========================================
-# MESSAGE CONFIGURATION  
+# MESSAGE CONFIGURATION
 # ========================================
-# All chat messages - kept short and unified
+# All chat messages displayed by the plugin
 # Use & for color codes (e.g., &4 = red, &a = green)
 
 # Missile launch warnings
 missile:
-  launch: "&c⚠ &f{nation} &claunched &4{missile_type}&c!"
-  
-# Anti-air defense messages  
-antiair:
-  launched: "&6◆ &f{displayName} &6firing"
-  intercepted: "&6◆ &f{displayName} &a✓ hit"
-  intercepted_by_player: "&6◆ &f{displayName} &a✓ hit &7by &f{playerName}"
-  failed: "&6◆ &f{displayName} &c✗ missed"
-  
-# Command messages
-commands:
-  usage:
-    rocket: "&7Use &f/doomsday help &7for all commands"
-    antiair: "&7Usage: &f/r aa <status|reload|online|offline> [name]"
-  reload:
-    success: "&a✓ Configs reloaded"
-    config_list:
-      - "&8• config.yml"
-      - "&8• custom_items.yml"
-      - "&8• messages.yml"
-  antiair:
-    status_header: "&6═══ ANTI-AIR STATUS ═══"
-    no_defenses: "&8No defenses configured"
-    unlimited_ammo: "&a✓ Defenses reloaded"
-    online: "&a✓ {name} online"
-    offline: "&c✗ {name} offline"
-    unknown_command: "&cUnknown: {command}"
-  permissions:
-    no_permission: "&cNo permission"
-    players_only: "&cPlayers only"
+  launch: "&c[MISSILE] &fA {missileType} has been launched by {launchNationColor}{launchNation}&f towards {targetNationColor}{targetNation}&f!"
 
-# GUI messages - simplified
+# Anti-air defense messages
+antiair:
+  launched: "&3[DEFENSE] &6&l{displayName} &fLaunched counter missile"
+  intercepted: "&3[DEFENSE] &6&l{displayName} &fInterception &a&nsuccessful"
+  intercepted_by_player: "&3[DEFENSE] &6&l{displayName} &fInterception &a&nsuccessful &7by &f{playerName}"
+  failed: "&3[DEFENSE] &6&l{displayName} &fInterception &c&nfailed"
+  
+# Command messages with consistent styling
+commands:
+  # New structured command system
+  rocket:
+    usage_header: "&c&l=== ROCKET COMMANDS ==="
+    launch_success: "&a✓ Missile launched: &f{missile_type}"
+    launch_failed: "&c✗ Failed to launch missile: {reason}"
+    unknown_missile: "&cUnknown missile type: &f{type}"
+    options_header: "&6&l=== ROCKET SYSTEM CONFIG ==="
+    powder_given: "&a&lGiven {amount}x Reinforcement Powder!"
+    powder_usage: "&fRight-click on blocks to reinforce them against explosions."
+    helmet_given: "&b&lGiven {amount}x Reinforcement Detection Helmet!"
+    helmet_usage: "&fWear this helmet to see reinforced blocks with particles."
+    
+  antiair:
+    usage_header: "&9&l=== ANTI-AIR COMMANDS ==="
+    status_header: "&6&l=== ANTI-AIR DEFENSE STATUS ==="
+    no_defenses: "&fNo anti-air defenses configured"
+    unlimited_ammo: "&a✅ Anti-air defenses reloaded and have unlimited ammo!"
+    online: "&a✅ Defense '&f{name}&a' brought online!"
+    offline: "&c❌ Defense '&f{name}&c' taken offline!"
+    unknown_command: "&cUnknown anti-air command: &f{command}"
+    list_header: "&6&l=== ANTI-AIR DEFENSE SYSTEMS ==="
+    
+  nations:
+    usage_header: "&6&l=== NATIONS COMMANDS ==="
+    main_menu_title: "&6&lDoomsday Nations - Main Menu"
+    nation_menu_title: "&6&l{nation} - Main Menu"
+    welcome_back: "&fWelcome back, citizen of &a{nation}&f!"
+    not_in_nation: "&fYou are not currently in any nation."
+    join_success: "&a✓ Successfully joined &f{nation}&a!"
+    leave_success: "&e✓ You have left &f{nation}&e."
+    teleport_success: "&a✓ Teleported to &f{nation}&a center!"
+    nation_not_found: "&cNation not found: &f{nation}"
+    cannot_leave: "&cYou cannot leave your current nation!"
+    cooldown_remaining: "&fCooldown remaining: &f{time}"
+    
+  seasons:
+    usage_header: "&e&l=== SEASON COMMANDS ==="
+    create_success: "&a✓ Created Season {id}: &f{name}"
+    activate_success: "&a✓ Activated Season {id} - The season is now LIVE!"
+    archive_success: "&a✓ Archived Season {id}"
+    current_header: "&e&l=== Season {id} ==="
+    no_season: "&fNo season configured"
+    
+  disaster:
+    usage_header: "&4&l=== DISASTER COMMANDS ==="
+    trigger_success: "&a✓ Successfully triggered &c&l{disaster}&a in &6&l{nation}"
+    stop_success: "&a✓ Successfully stopped &c&l{disaster}&a in &6&l{nation}"
+    status_header: "&6&l=== DISASTER STATUS ==="
+    list_header: "&6&l=== AVAILABLE DISASTERS ==="
+    reload_success: "&a✓ Successfully reloaded disaster configuration!"
+    auto_enabled: "&a▶ Automatic disasters have been enabled!"
+    auto_disabled: "&c⏸ Automatic disasters have been disabled!"
+    
+  # Legacy support
+  legacy:
+    redirect_header: "&e⚠ Legacy command detected!"
+    redirect_message: "&fThe /r command has been restructured for better organization:"
+    new_structure_header: "&aNew Command Structure:"
+    rocket_desc: "&e/rocket &f- Missile operations (staff only)"
+    antiair_desc: "&e/antiair &f- Anti-aircraft systems (staff only)"
+    nations_desc: "&e/nations &f- Nations system with GUI (players)"
+    seasons_desc: "&e/seasons &f- Season management (staff only)"
+    disaster_desc: "&e/disaster &f- Disaster management (staff only)"
+    player_hint: "&fFor players: Use &f/nations &ffor the main interface"
+    staff_hint: "&fFor staff: Use the specific commands for each system"
+    
+  # General command responses
+  reload:
+    success: "&a🔄 All configurations reloaded!"
+    config_list:
+      - "&f• config.yml (rockets, explosions, anti-air)"
+      - "&f• custom_items.yml (reinforcement powder)" 
+      - "&f• messages.yml (chat messages)"
+      - "&f• nations.yml (nations and disasters)"
+      - "&f• seasons.yml (season management)"
+  
+  permissions:
+    no_permission: "&cYou don't have permission to {action}!"
+    players_only: "&cPlayers only!"
+    staff_only: "&cThis command is for staff only!"
+
+# GUI messages
 gui:
   nation_selection:
-    title: "Select Nation"
-    compass_title: "&6Nation Selection"
+    title: "Select Your Nation"
+    compass_title: "&6&lNation Selection"
     compass_lore:
-      - "&7Choose your nation"
-      - "&7Current: &f{current_nation}"
-      - "&7Can switch: {can_switch}"
-      - "&eClick nation to join"
+      - "&7Choose your nation to join the fight!"
+      - ""
+      - "&7Current Nation: &f{current_nation}"
+      - "&7Can Switch: {can_switch}"
+      - ""
+      - "&eClick on a nation below to join!"
     leave_button:
-      title: "&cLeave Nation"
+      title: "&c&lLeave Current Nation"
       lore:
-        - "&7Leave current nation"
-        - "&cCooldown applies!"
+        - "&7Leave your current nation"
+        - "&cWarning: You may not be able to rejoin immediately!"
+        - ""
         - "&eClick to leave {nation_name}"
   nation_info:
     citizens: "&7Citizens: &f{count}"
     region: "&7Region: &f{region}"
-    missiles_header: "&6Missiles:"
-    missiles_none: "&8None available"
-    disasters_header: "&cDisasters:"
-    disaster_active: " &4●"
-    current_nation: "&a✓ Your nation"
-    teleport_hint: "&eClick to teleport"
-    cannot_leave: "&cCannot leave"
-    cannot_switch: "&cCannot switch"
-    join_hint: "&eClick to join"
+    missiles_header: "&6Available Missiles:"
+    missiles_none: "&7• &cNone configured"
+    disasters_header: "&cNatural Disasters:"
+    disaster_active: " &4(ACTIVE)"
+    current_nation: "&a✓ Current Nation"
+    teleport_hint: "&eClick to teleport to nation"
+    cannot_leave: "&cYou cannot leave this nation"
+    cannot_switch: "&cYou cannot switch nations"
+    join_hint: "&eClick to join this nation!"
   confirmation:
     title: "Join {nation_name}?"
     yes_button:
-      title: "&aJOIN"
+      title: "&a&lYES - Join Nation"
       lore:
-        - "&7Join {nation_name}"
+        - "&7Click to join {nation_name}"
         - "{leave_current}"
-        - "&7Teleports to center"
+        - "&7You will be teleported to the nation center"
     no_button:
-      title: "&cCANCEL"
+      title: "&c&lNO - Cancel"
       lore:
-        - "&7Back to selection"
+        - "&7Return to nation selection"
   messages:
-    joined_nation: "&a✓ Joined &f{nation_name}"
-    left_nation: "&e✓ Left &f{nation_name}"
-    teleported: "&a✓ Teleported to {nation_name}"
-    cannot_leave_cooldown: "&cCannot leave - cooldown active"
-    cooldown_remaining: "&7Cooldown: &f{hours}h {minutes}m"
-    not_in_nation: "&cNo nation"
-    failed_to_join: "&cFailed to join {nation_name}"
-    failed_to_leave: "&cFailed to leave"
-    nation_not_found: "&cNation not found"
+    joined_nation: "&eYou have joined &f{nation_name}&e!"
+    left_nation: "&eYou have left &f{nation_name}&e."
+    teleported: "&a§lTeleported to {nation_name} center!"
+    cannot_leave_cooldown: "&cYou cannot leave your current nation!"
+    cooldown_remaining: "&7Cooldown remaining: &f{hours}h {minutes}m"
+    not_in_nation: "&cYou are not in any nation!"
+    failed_to_join: "&cFailed to join {nation_name}!"
+    failed_to_leave: "&cFailed to leave your nation!"
+    nation_not_found: "&cNation not found!"
+
+# Disaster messages
+disasters:
+  # America disasters
+  meteor_showers:
+    start: "&6[DISASTER] &4Meteor shower detected over {nation}! Take cover as burning rocks fall from the sky!"
+    end: "&6[DISASTER] &fThe meteor shower in {nation} has ended."
     
-# Items messages - new section
-items:
-  powder:
-    given: "&a✓ {amount}x Reinforcement Powder"
-    usage: "&8Right-click blocks to reinforce"
-    invalid_amount: "&cAmount must be 1-64"
-  helmet:
-    given: "&b✓ {amount}x Detector Helmet"
-    usage: "&8Wear to see reinforced blocks"
-    invalid_amount: "&cAmount must be 1-64"
+  wildfires:
+    start: "&6[DISASTER] &cWildfires are spreading across {nation} forests! Evacuate the area immediately!"
+    end: "&6[DISASTER] &fThe wildfires in {nation} have been contained."
     
-# Generic messages - new section
-generic:
-  reload_success: "&a✓ Plugin reloaded"
-  reload_failed: "&cReload failed"
-  config_error: "&cConfig error"
-  invalid_command: "&cInvalid command"
-  
-# Season messages - new section  
-seasons:
-  no_season: "&8No season active"
-  season_info: "&6Season {id}: &f{name}"
-  season_active: "&a● Active"
-  season_planned: "&e● Planned"
-  season_archived: "&8● Archived"
-  created: "&a✓ Created Season {id}"
-  activated: "&a✓ Season activated"
-  archived: "&a✓ Season archived"
-  time_remaining: "&7Ends in: &f{time}"
-  time_until_start: "&7Starts in: &f{time}"
+  tornadoes:
+    start: "&6[DISASTER] &8A powerful tornado has formed in {nation}! Seek shelter immediately!"
+    end: "&6[DISASTER] &fThe tornado in {nation} has dissipated."
+    
+  # Europe disasters
+  flooding:
+    start: "&6[DISASTER] &9Heavy rains are causing severe flooding across {nation}! Rivers are overflowing!"
+    end: "&6[DISASTER] &fThe flooding in {nation} has receded."
+    
+  plagues:
+    start: "&6[DISASTER] &5A deadly plague has outbreak in {nation}! Avoid contact with infected!"
+    end: "&6[DISASTER] &fThe plague in {nation} has been contained."
+    infected: "&6[DISASTER] &cYou feel a creeping sickness..."
+    spreading: "&6[DISASTER] &cThe disease spreads to you from nearby infected!"
+    
+  storms:
+    start: "&6[DISASTER] &8Violent storms are raging across {nation}! Lightning strikes frequently!"
+    end: "&6[DISASTER] &fThe storms in {nation} have cleared."
+    
+  # Africa disasters
+  droughts:
+    start: "&6[DISASTER] &6A severe drought has begun in {nation}! Water sources are drying up..."
+    end: "&6[DISASTER] &fThe drought in {nation} has ended."
+    thirst: "&6[DISASTER] &cThe scorching heat drains your energy... You need water!"
+    dying: "&6[DISASTER] &cYou are dying of thirst! Find water quickly!"
+    
+  # Antarctica disasters
+  blizzards:
+    start: "&6[DISASTER] &f&lA massive blizzard is engulfing {nation}! Visibility is zero!"
+    end: "&6[DISASTER] &fThe blizzard in {nation} has cleared."
+    
+  ice_storms:
+    start: "&6[DISASTER] &b&lA devastating ice storm is freezing {nation}! Ice crystals cut through the air!"
+    end: "&6[DISASTER] &fThe ice storm in {nation} has ended."
+    damage: "&6[DISASTER] &cSharp ice crystals cut through the air!"
+    
+  # Command messages
+  command:
+    auto_disabled: "&c⏸ Automatic disasters have been disabled!"
+    auto_enabled: "&a▶ Automatic disasters have been enabled!"
+    status_disabled: "&7Automatic disasters: &cDisabled"
+    status_enabled: "&7Automatic disasters: &aEnabled"
