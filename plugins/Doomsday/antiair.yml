@@ -129,9 +129,9 @@ antiair:
     kub_africa_core:
       displayName: "Kub System (Africa - Core)"
       location:
-        x: 0
+        x: 3
         y: 102
-        z: 0
+        z: 3
       range: 80
       accuracy: 0.75
       interceptorSpeed: 6.5

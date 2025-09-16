@@ -1,2 +1,396 @@
-[20:04:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Microsoft Microsoft-11933201) on Mac OS X 15.6 (aarch64)
-[20:04:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[23:50:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800203) on Windows 11 10.0 (amd64)
+[23:50:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) for Minecraft 1.21.8
+[23:50:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:50:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\DoomsdayCore.jar'...
+[23:51:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DoomsdayCore.jar' in 1713ms.
+[23:51:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[23:51:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - Doomsday (1.0.0), Essentials (2.21.2), EssentialsChat (2.21.2), FastAsyncWorldEdit (2.13.1), LuckPerms (5.5.11), Multiverse-Core (5.2.1), PlaceholderAPI (2.11.6), Vault (1.7.3-b131), ViaBackwards (5.4.2), ViaVersion (5.4.2), VoidGen (2.3.2), WorldGuard (7.0.14+2339-43997ec)
+[23:51:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:51:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:51:08] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 835.8ms
+[23:51:12] [ServerMain/INFO]: Loaded 1407 recipes
+[23:51:12] [ServerMain/INFO]: Loaded 1520 advancements
+[23:51:12] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[23:51:12] [Server thread/INFO]: Loading properties
+[23:51:12] [Server thread/INFO]: This server is running Paper version 1.21.8-56-main@65641d1 (2025-08-29T20:44:17Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[23:51:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:51:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:51:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:51:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[23:51:13] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:51:14] [Server thread/INFO]: Default game type: SURVIVAL
+[23:51:14] [Server thread/INFO]: Generating keypair
+[23:51:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:51:14] [Server thread/INFO]: Using default channel type
+[23:51:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:51:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:51:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[23:51:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[23:51:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:51:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:51:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:51:16] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:51:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.11
+[23:51:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[23:51:18] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[23:51:18] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[23:51:18] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.3.2
+[23:51:18] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1
+[23:51:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2766b182]
+[23:51:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[23:51:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[23:51:19] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.2.1
+[23:51:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[23:51:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[23:51:19] [Server thread/INFO]: [Doomsday] Loading server plugin Doomsday v1.0.0
+[23:51:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:51:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.11
+[23:51:20] [Server thread/INFO]:         __    
+[23:51:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.11
+[23:51:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[23:51:20] [Server thread/INFO]: 
+[23:51:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[23:51:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[23:51:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[23:51:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1938ms)
+[23:51:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[23:51:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:51:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:51:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[23:51:21] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[23:51:21] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.3.2
+[23:51:21] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_21_3
+[23:51:21] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1
+[23:51:21] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[23:51:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[23:51:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:51:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[23:51:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_6.PaperweightFaweAdapter as the Bukkit adapter
+[23:51:24] [Server thread/INFO]: Preparing level "world"
+[23:51:24] [Server thread/INFO]: [VoidGen] 
+[23:51:24] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:51:24] [Server thread/INFO]: [VoidGen] > 
+[23:51:24] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[23:51:24] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[23:51:24] [Server thread/INFO]: [VoidGen] > 
+[23:51:24] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:51:24] [Server thread/INFO]: [VoidGen] 
+[23:51:24] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1172 build(s) out of date.
+You are running build 0, the latest version is build 1172.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[23:51:24] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] A new release for FastAsyncWorldEdit is available: 2.13.2. You are currently on 2.13.1.
+Download from https://modrinth.com/plugin/fastasyncworldedit, https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit or https://www.spigotmc.org/resources/13932
+[23:51:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:51:25] [Server thread/INFO]: Preparing spawn area: 0%
+[23:51:25] [Server thread/INFO]: Preparing spawn area: 0%
+[23:51:25] [Server thread/INFO]: Preparing spawn area: 0%
+[23:51:25] [Server thread/INFO]: Time elapsed: 1099 ms
+[23:51:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:51:25] [Server thread/INFO]: Preparing spawn area: 0%
+[23:51:26] [Server thread/INFO]: Time elapsed: 468 ms
+[23:51:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[23:51:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[23:51:26] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[23:51:26] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:51:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[23:51:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:51:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[23:51:27] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[23:51:27] [Server thread/INFO]: [Essentials] Using locale en_US
+[23:51:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:51:28] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:51:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[23:51:28] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[23:51:28] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[23:51:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.2.1
+[23:51:29] [Server thread/INFO]: [VoidGen] 
+[23:51:29] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:51:29] [Server thread/INFO]: [VoidGen] > 
+[23:51:29] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[23:51:29] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[23:51:29] [Server thread/INFO]: [VoidGen] > 
+[23:51:29] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[23:51:29] [Server thread/INFO]: [VoidGen] 
+[23:51:29] [Server thread/INFO]: [VoidGen] 
+[23:51:29] [Server thread/INFO]: [VoidGen] > ——————————————————————[ lobby ]——————————————————————
+[23:51:29] [Server thread/INFO]: [VoidGen] > 
+[23:51:29] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[23:51:29] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[23:51:29] [Server thread/INFO]: [VoidGen] > 
+[23:51:29] [Server thread/INFO]: [VoidGen] > ——————————————————————[ lobby ]——————————————————————
+[23:51:29] [Server thread/INFO]: [VoidGen] 
+[23:51:29] [Server thread/ERROR]: [Multiverse-Core] Failed to create bukkit world: lobby
+[23:51:29] [Server thread/WARN]: java.lang.RuntimeException: Could not create world config for lobby
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:323)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.level.ServerLevel.lambda$new$1(ServerLevel.java:586)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.world.level.Level.<init>(Level.java:842)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:586)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1401)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:841)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:526)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:879)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:877)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.doLoadWorld(WorldManager.java:478)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.loadWorld(WorldManager.java:445)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$autoLoadWorlds$14(WorldManager.java:230)
+[23:51:29] [Server thread/WARN]: 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.autoLoadWorlds(WorldManager.java:226)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$initAllWorlds$0(WorldManager.java:151)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.external.vavr.control.Try.andThenTry(Try.java:308)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.world.WorldManager.initAllWorlds(WorldManager.java:149)
+[23:51:29] [Server thread/WARN]: 	at multiverse-core-5.2.1.jar//org.mvplugins.multiverse.core.MultiverseCore.onEnable(MultiverseCore.java:101)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:652)
+[23:51:29] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[23:51:29] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[23:51:29] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[23:51:29] [Server thread/WARN]: Caused by: org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:171)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:69)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:56)
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:232)
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:210)
+[23:51:29] [Server thread/WARN]: 	at io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:321)
+[23:51:29] [Server thread/WARN]: 	... 32 more
+[23:51:29] [Server thread/WARN]: Caused by: unacceptable code point ' ' (0x0) special characters are not allowed
+[23:51:29] [Server thread/WARN]: in "'reader'", position 0
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.reader.StreamReader.update(StreamReader.java:207)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:166)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.reader.StreamReader.peek(StreamReader.java:121)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1222)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:338)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:242)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:210)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:152)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getSingleNode(Composer.java:166)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:179)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.loadFromReader(Yaml.java:508)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.load(Yaml.java:461)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:207)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:48)
+[23:51:29] [Server thread/WARN]: 	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:161)
+[23:51:29] [Server thread/WARN]: 	... 37 more
+[23:51:29] [Server thread/ERROR]: [Multiverse-Core] Failed to load world lobby: Failure{reason=WORLD_CREATOR_FAILED, causeBy=Failure{reason=BUKKIT_CREATION_FAILED}}
+[23:51:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.2.1]
+[23:51:30] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[23:51:30] [Server thread/INFO]: [Multiverse-Core] Version 5.2.1 (API v5.2) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[23:51:30] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[23:51:30] [Server thread/INFO]: [VoidGen] VoidGen hooked into Multiverse!
+[23:51:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[23:51:30] [Server thread/ERROR]: [WorldGuard] Error parsing configuration for world world. 
+[23:51:30] [Server thread/ERROR]: Error occurred while enabling WorldGuard v7.0.14+2339-43997ec (Is it up to date?)
+org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:208) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:173) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:168) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:123) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1204) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:320) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:210) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:152) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:156) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:493) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:446) ~[snakeyaml-2.2.jar:?]
+	at FastAsyncWorldEdit-Paper-2.13.1.jar/com.sk89q.util.yaml.YAMLProcessor.load(YAMLProcessor.java:129) ~[FastAsyncWorldEdit-Paper-2.13.1.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitWorldConfiguration.loadConfiguration(BukkitWorldConfiguration.java:135) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitWorldConfiguration.<init>(BukkitWorldConfiguration.java:95) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitConfigurationManager.get(BukkitConfigurationManager.java:104) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitConfigurationManager.get(BukkitConfigurationManager.java:95) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitConfigurationManager.postLoad(BukkitConfigurationManager.java:81) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.config.YamlConfigurationManager.load(YamlConfigurationManager.java:113) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitConfigurationManager.load(BukkitConfigurationManager.java:57) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitWorldGuardPlatform.load(BukkitWorldGuardPlatform.java:141) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.WorldGuard.setup(WorldGuard.java:91) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.WorldGuardPlugin.onEnable(WorldGuardPlugin.java:151) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:652) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:51:30] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
+[23:51:30] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[23:51:30] [Server thread/ERROR]: Error occurred while disabling WorldGuard v7.0.14+2339-43997ec
+java.lang.NullPointerException: Cannot invoke "com.sk89q.worldguard.bukkit.BukkitRegionContainer.shutdown()" because "this.regionContainer" is null
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.BukkitWorldGuardPlatform.unload(BukkitWorldGuardPlatform.java:151) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.WorldGuard.disable(WorldGuard.java:206) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at worldguard-bukkit-7.0.14-dist.jar/com.sk89q.worldguard.bukkit.WorldGuardPlugin.onDisable(WorldGuardPlugin.java:266) ~[worldguard-bukkit-7.0.14-dist.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:286) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:652) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:608) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-56-65641d1]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:51:30] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[23:51:30] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[23:51:30] [Server thread/INFO]: [Doomsday] Enabling Doomsday v1.0.0
+[23:51:30] [Server thread/INFO]: [Doomsday] Starting DoomsdayCore plugin initialization...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading configuration manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 9 configuration files
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading message manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading reinforced blocks system...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 18 valid reinforcement materials
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 18 resistance values
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 0 reinforced blocks from file
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded custom items configuration
+[23:51:30] [Server thread/INFO]: [Doomsday] Successfully registered reinforcement powder recipe (dummy)
+[23:51:30] [Server thread/INFO]: [Doomsday] Recipe configured from custom_items.yml
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading detector manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading anti-air defense system...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: patriot_america_border at (-192, 102, 0) with 95% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: aegis_america_north at (-220, 102, 40) with 92% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: aegis_america_south at (-220, 102, -40) with 92% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: core_defense_america at (-240, 102, 0) with 90% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: hq9_asia_border at (192, 102, 0) with 90% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s400_asia_core at (220, 102, 36) with 88% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s400_asia_support at (220, 102, -36) with 88% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: flak_antarctica_core at (0, 102, 192) with 65% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: iris_antarctica_support at (-32, 102, 160) with 80% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: kub_africa_core at (3, 102, 3) with 75% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: zsu_africa_support at (-40, 102, 20) with 70% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: s300_europe_core at (0, 102, -192) with 85% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded anti-air defense: iris_europe_support at (20, 102, -160) with 80% accuracy
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 13 anti-air defense systems
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading explosion handler...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading utility handlers...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading missile service...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading nation manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded 5 nations with disaster systems
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading nation player manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Initialized nation player cache with 1 players
+[23:51:30] [Server thread/INFO]: [Doomsday] Initialized online player tracking. Nations: {africa=0, asia=0, antarctica=0, europe=0, america=0}
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading messaging manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Messaging Manager loaded - Missiles: global, Anti-air: nation-specific, Disasters: nation-specific
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading missile fuel manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded fuel data for 1 missiles
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading anti-air fuel manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loaded fuel data for 1 anti-air defenses
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading player data manager...
+[23:51:30] [Server thread/INFO]: [Doomsday] Loading AI service...
+[23:51:31] [Server thread/INFO]: [Doomsday] Loading season system...
+[23:51:31] [Server thread/INFO]: [Doomsday] Loaded season: Season{id=1, displayName='Season 1', status=ACTIVE, startAt=2025-09-08T21:21:50.130543Z, endAt=2025-09-15T21:21:50.130551Z}
+[23:51:31] [Server thread/INFO]: [Doomsday] Loading role management system...
+[23:51:31] [Server thread/INFO]: [Doomsday] Loaded role configuration - Claim window: 60 minutes, Role colors: 7
+[23:51:31] [Server thread/INFO]: [Doomsday] Loaded role assignments for 5 nations, 1 players with roles
+[23:51:31] [Server thread/INFO]: [Doomsday] Loaded role claim items configuration
+[23:51:31] [Server thread/INFO]: [Doomsday] Active season validated: Season 1
+[23:51:31] [Server thread/INFO]: [Doomsday] Initialized game scoreboard
+[23:51:31] [Server thread/INFO]: [Doomsday] Chat configuration loaded from chat.yml
+[23:51:31] [Server thread/INFO]: [Doomsday] LuckPerms integration enabled for custom chat
+[23:51:31] [Server thread/INFO]: [Doomsday] Essentials integration enabled for AFK detection
+[23:51:31] [Server thread/INFO]: [Doomsday] DoomsdayCore plugin enabled successfully!
+[23:51:31] [Server thread/INFO]: [Doomsday] Reinforced blocks system initialized with 0 blocks
+[23:51:31] [Server thread/INFO]: [Doomsday] Anti-air defense system initialized with 13 defense installations
+[23:51:31] [Server thread/INFO]: [Doomsday] Nation system initialized with 5 nations and natural disasters
+[23:51:31] [Server thread/INFO]: [Doomsday] Role management system initialized with season integration
+[23:51:31] [Server thread/INFO]: [spark] Starting background profiler...
+[23:51:31] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:51:31] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:51:31] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[23:51:31] [Server thread/INFO]: Done preparing level "world" (7.821s)
+[23:51:31] [Server thread/INFO]: Running delayed init tasks
+[23:51:31] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:51:31] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[23:51:31] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[23:51:31] [Server thread/INFO]: Done (36.262s)! For help, type "help"
+[23:51:31] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[23:51:32] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for trident_america at -170,102,30
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for tomahawk_america_north at -170,102,-30
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for tomahawk_america_south at -192,102,50
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for df21_asia at 170,102,20
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for iskander_asia at 170,102,-20
+[23:51:32] [Server thread/INFO]: [Doomsday] Placed TNT block for v2_antarctica at 20,102,188
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed TNT block for tsar_antarctica at -20,102,200
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed TNT block for scud_africa at -2,102,0
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed TNT block for fadjar_africa at -20,102,-20
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed TNT block for stormshadow_europe at -20,102,-200
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed TNT block for scalp_europe at 20,102,-220
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for patriot_america_border at -192,102,0
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for aegis_america_north at -220,102,40
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for aegis_america_south at -220,102,-40
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for core_defense_america at -240,102,0
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for hq9_asia_border at 192,102,0
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for s400_asia_core at 220,102,36
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for s400_asia_support at 220,102,-36
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for flak_antarctica_core at 0,102,192
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for iris_antarctica_support at -32,102,160
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for kub_africa_core at 3,102,3
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for zsu_africa_support at -40,102,20
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for s300_europe_core at 0,102,-192
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed beacon for iris_europe_support at 20,102,-160
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed all missile and anti-air blocks
+[23:51:33] [Server thread/INFO]: [Doomsday] Placed missile and anti-air blocks on startup
+[23:51:38] [User Authenticator #0/INFO]: UUID of player Hazv is 087f99ff-4c7c-4072-9087-1037b1da3cec
+[23:51:38] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, VoidGen, Essentials]
+[23:51:38] [Server thread/INFO]: Hazv joined the game
+[23:51:39] [Server thread/INFO]: Hazv[/127.0.0.1:56223] logged in with entity id 62 at ([world]0.0, 100.0, 0.0)
+[23:51:43] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:51:43] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:51:43] [Server thread/INFO]: [Doomsday] GUI Title: Crafting
+[23:51:43] [Server thread/INFO]: [Doomsday] Not our GUI, ignoring
+[23:51:46] [Server thread/INFO]: Hazv issued server command: /nation
+[23:51:47] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:52:09] [Server thread/INFO]: [Doomsday] === GUI CLICK DEBUG ===
+[23:52:09] [Server thread/INFO]: [Doomsday] Player: Hazv
+[23:52:09] [Server thread/INFO]: [Doomsday] GUI Title: Anti-Air Information
+[23:52:09] [Server thread/INFO]: [Doomsday] Confirmed our GUI, cancelling event
+[23:52:09] [Server thread/INFO]: [Doomsday] Clicked item is null
+[23:52:16] [Server thread/INFO]: Hazv issued server command: /nation info
+[23:52:18] [Server thread/INFO]: Hazv issued server command: /nation info africa
+[23:52:56] [Server thread/INFO]: Hazv lost connection: Disconnected
+[23:52:56] [Server thread/INFO]: Hazv left the game

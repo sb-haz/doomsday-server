@@ -1,0 +1,14 @@
+ai:
+  total_requests: 0
+  requests_today: 0
+  last_request_time: 0
+  last_reset_date: ''
+profile:
+  last_login: 1757537925794
+  last_known_username: Annoying_Rat
+nation:
+  current_nation: america
+roles:
+  current_role: PRESIDENT
+  role_assignment_time: 1757537952571
+  assigned_by: ADMIN

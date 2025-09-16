@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.127
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757537970661
+  login: 1757537925806
+money: '0'
+last-account-name: Annoying_Rat
+logoutlocation:
+  world: 4f09eb55-ee98-405b-9208-43001cb277b0
+  world-name: world
+  x: 3.5541165031803508
+  y: 100.0
+  z: -14.051944044528204
+  yaw: -18.29998779296875
+  pitch: 8.550024032592773
